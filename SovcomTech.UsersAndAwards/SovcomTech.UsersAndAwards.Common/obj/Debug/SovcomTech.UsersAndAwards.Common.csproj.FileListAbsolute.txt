@@ -1,0 +1,17 @@
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.Common.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.Common.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.BLL.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.BL_Interface.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.DAL.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.DAL_Interface.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\Entity_User.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.BLL.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.BL_Interface.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.DAL.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\SovcomTech.UsersAndAwards.DAL_Interface.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\bin\Debug\Entity_User.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\obj\Debug\SovcomTech.UsersAndAwards.Common.csprojAssemblyReference.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\obj\Debug\SovcomTech.UsersAndAwards.Common.csproj.CoreCompileInputs.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\obj\Debug\SovcomTech.UsersAndAwards.Common.csproj.CopyComplete
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\obj\Debug\SovcomTech.UsersAndAwards.Common.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Common\obj\Debug\SovcomTech.UsersAndAwards.Common.pdb

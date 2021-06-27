@@ -1,0 +1,6 @@
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\Entity_User\bin\Debug\Entity_User.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\Entity_User\bin\Debug\Entity_User.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\Entity_User\obj\Debug\SovcomTech.UsersAndAwards.Entity_User.csprojAssemblyReference.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\Entity_User\obj\Debug\SovcomTech.UsersAndAwards.Entity_User.csproj.CoreCompileInputs.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\Entity_User\obj\Debug\Entity_User.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\Entity_User\obj\Debug\Entity_User.pdb
