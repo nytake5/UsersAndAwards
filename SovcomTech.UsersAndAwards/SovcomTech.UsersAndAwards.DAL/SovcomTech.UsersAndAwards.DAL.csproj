@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E464251B-D401-4059-B2C9-59EB3CF55294}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ConsolePL</RootNamespace>
-    <AssemblyName>ConsolePL</AssemblyName>
+    <ProjectGuid>{1890A578-20EF-42AD-98B6-4C49A1DE5F8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SovcomTech.UsersAndAwards.DAL</RootNamespace>
+    <AssemblyName>SovcomTech.UsersAndAwards.DAL</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -34,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,28 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Awards_DAO.cs" />
+    <Compile Include="Users_DAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity_User\SovcomTech.UsersAndAwards.Entity_User.csproj">
       <Project>{2b34ef73-9e2a-4e02-ab80-ceeded669a2a}</Project>
       <Name>SovcomTech.UsersAndAwards.Entity_User</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BLL\SovcomTech.UsersAndAwards.BLL.csproj">
-      <Project>{3a5a92f1-99e0-4817-9257-fd28e438d774}</Project>
-      <Name>SovcomTech.UsersAndAwards.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BL_Interface\SovcomTech.UsersAndAwards.BL_Interface.csproj">
-      <Project>{b262d625-4061-4bed-92a2-b22a93135f90}</Project>
-      <Name>SovcomTech.UsersAndAwards.BL_Interface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.Common\SovcomTech.UsersAndAwards.Common.csproj">
-      <Project>{82bb5c02-25fb-496d-957e-679ee81bb0c7}</Project>
-      <Name>SovcomTech.UsersAndAwards.Common</Name>
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.DAL_Interface\SovcomTech.UsersAndAwards.DAL_Interface.csproj">
+      <Project>{ac8bd8a2-e9d7-4ab4-8e06-288616df9413}</Project>
+      <Name>SovcomTech.UsersAndAwards.DAL_Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\SovcomTech.UsersAndAwards.Entity_Award\SovcomTech.UsersAndAwards.Entity_Award.csproj">
       <Project>{52d57dd0-2d2b-452f-968f-be207f5cb9ee}</Project>

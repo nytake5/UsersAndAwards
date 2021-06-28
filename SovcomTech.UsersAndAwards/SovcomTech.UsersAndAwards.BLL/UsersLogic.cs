@@ -13,7 +13,7 @@ using SovcomTech.UsersAndAwards.Entity_Award;
 
 namespace SovcomTech.UsersAndAwards.BLL
 {
-    public class UsersLogic : IBL_Interface
+    public class UsersLogic : IBL_User_Interface
     {
         private readonly IUser_DAO _user_DAO;
         public UsersLogic(IUser_DAO user_DAO)
