@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SovcomTech.UsersAndAwards.Entity_Award;
 
 namespace SovcomTech.UsersAndAwards.BL_Interface
 {
@@ -19,7 +20,7 @@ namespace SovcomTech.UsersAndAwards.BL_Interface
 		IEnumerable<User> GetAll();
 		IEnumerable<Award> GetAwards();
 		IEnumerable<KeyValuePair<int, int>> GetUserAward();
-		string GetAwardsAtUser(int id);
-		string FindAtAwards(int awardId);
+		IEnumerable<Award> GetAwardsAtUser(int id);
+		IEnumerable<User> FindAtAwards(int awardId);
 	}
 }

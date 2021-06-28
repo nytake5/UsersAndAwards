@@ -1,0 +1,6 @@
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Entity_Award\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Entity_Award\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Entity_Award\obj\Debug\SovcomTech.UsersAndAwards.Entity_Award.csprojAssemblyReference.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Entity_Award\obj\Debug\SovcomTech.UsersAndAwards.Entity_Award.csproj.CoreCompileInputs.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Entity_Award\obj\Debug\SovcomTech.UsersAndAwards.Entity_Award.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.Entity_Award\obj\Debug\SovcomTech.UsersAndAwards.Entity_Award.pdb

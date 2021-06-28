@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using SovcomTech.UsersAndAwards.Entity_Award;
 
 namespace ConsolePL
 {
@@ -143,7 +144,10 @@ namespace ConsolePL
                                 Console.WriteLine("Введите корректное Id");
                                 break;
                             }
-                            Console.WriteLine(userLogic.GetAwardsAtUser(tempId));
+                            foreach (var item in userLogic.GetAwardsAtUser(tempId))
+                            {
+                                Console.WriteLine(item.ToString());
+                            }
                             break;
                         case 8:
                             Console.WriteLine("Введите Id награды:");
@@ -153,7 +157,10 @@ namespace ConsolePL
                                 Console.WriteLine("Введите корректное Id");
                                 break;
                             }
-                            Console.WriteLine(userLogic.FindAtAwards(tempId));
+                            foreach (var item in userLogic.FindAtAwards(tempId))
+                            {
+                                Console.WriteLine(item.ToString());
+                            }
                             break;
                         case 9:
                             Console.WriteLine("Введите Id юзера");

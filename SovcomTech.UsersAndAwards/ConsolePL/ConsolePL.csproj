@@ -66,6 +66,10 @@
       <Project>{82bb5c02-25fb-496d-957e-679ee81bb0c7}</Project>
       <Name>SovcomTech.UsersAndAwards.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.Entity_Award\SovcomTech.UsersAndAwards.Entity_Award.csproj">
+      <Project>{52d57dd0-2d2b-452f-968f-be207f5cb9ee}</Project>
+      <Name>SovcomTech.UsersAndAwards.Entity_Award</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

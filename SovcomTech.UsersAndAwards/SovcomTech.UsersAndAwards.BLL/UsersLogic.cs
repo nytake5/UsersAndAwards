@@ -9,6 +9,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SovcomTech.UsersAndAwards.Entity_Award;
 
 namespace SovcomTech.UsersAndAwards.BLL
 {
@@ -57,7 +58,7 @@ namespace SovcomTech.UsersAndAwards.BLL
             return _user_DAO.GetAll();
         }
 
-        public string GetAwardsAtUser(int id)
+        public IEnumerable<Award> GetAwardsAtUser(int id)
         {
             return _user_DAO.GetAwardsAtUser(id);
         }
@@ -93,7 +94,7 @@ namespace SovcomTech.UsersAndAwards.BLL
             return _user_DAO.GetUserAward();
         }
 
-        public string FindAtAwards(int awardId)
+        public IEnumerable<User> FindAtAwards(int awardId)
         {
             return _user_DAO.FindAtAwards(awardId);
         }

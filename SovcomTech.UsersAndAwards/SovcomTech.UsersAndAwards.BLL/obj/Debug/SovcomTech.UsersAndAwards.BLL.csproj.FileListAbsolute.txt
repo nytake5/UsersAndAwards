@@ -13,3 +13,5 @@ C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.
 C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL.csproj.CopyComplete
 C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL.dll
 C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.pdb

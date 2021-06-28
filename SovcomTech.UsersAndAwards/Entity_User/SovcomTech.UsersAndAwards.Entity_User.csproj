@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Award.cs" />
     <Compile Include="MyException\ConnectionEx.cs" />
     <Compile Include="MyException\DependenciesEx.cs" />
     <Compile Include="MyException\ValidException.cs" />

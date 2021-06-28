@@ -10,6 +10,7 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Data;
 using Entity_User.MyException;
+using SovcomTech.UsersAndAwards.Entity_Award;
 
 namespace SovcomTech.UsersAndAwards.DAL
 {
@@ -142,9 +143,9 @@ namespace SovcomTech.UsersAndAwards.DAL
                 command.ExecuteNonQuery();
             }
         }
-        public string FindAtAwards(int awardId)
+        public IEnumerable<User> FindAtAwards(int awardId)
         {
-            StringBuilder res = new StringBuilder("");
+            var res = new List<User>();
             using (var sqlConnection = new SqlConnection(_connectionString))
             {
                 var command = sqlConnection.CreateCommand();
@@ -155,10 +156,16 @@ namespace SovcomTech.UsersAndAwards.DAL
                 var reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    res.Append((string)reader["Name"]).Append(" ");
+                    res.Add(new User
+                    {
+                        Id = (int)reader["Id"],
+                        Name = (string)reader["Name"],
+                        DateOfBirth = (DateTime)reader["DateOfBirth"],
+                        Age = (int)reader["Age"]
+                    });
                 }
             }
-            return res.ToString();
+            return res;
         }
 
         public IEnumerable<User> GetAll()
@@ -187,9 +194,9 @@ namespace SovcomTech.UsersAndAwards.DAL
             return res;
         }
 
-        public string GetAwardsAtUser(int id)
+        public IEnumerable<Award> GetAwardsAtUser(int id)
         {
-            StringBuilder res = new StringBuilder("");
+            var res = new List<Award>();
             using (var sqlConnection = new SqlConnection(_connectionString))
             {
                 var command = sqlConnection.CreateCommand();
@@ -201,10 +208,14 @@ namespace SovcomTech.UsersAndAwards.DAL
 
                 while (reader.Read())
                 {
-                    res.Append((string)reader["Title"]).Append(" ");
+                    res.Add(new Award
+                    {
+                        Id = (int)reader["Id"],
+                        Title = (string)reader["Title"]
+                    });
                 }
             }
-            return res.ToString();
+            return res;
         }
         public IEnumerable<Award> GetAwards()
         {
