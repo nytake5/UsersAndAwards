@@ -1,0 +1,13 @@
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\SovcomTech.UsersAndAwards.DAL.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\SovcomTech.UsersAndAwards.DAL.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\Entity_User.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Interface.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\Entity_User.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Interface.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\obj\Debug\SovcomTech.UsersAndAwards.DAL_User.csprojAssemblyReference.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\obj\Debug\SovcomTech.UsersAndAwards.DAL_User.csproj.CoreCompileInputs.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\obj\Debug\SovcomTech.UsersAndAwards.DAL_User.csproj.CopyComplete
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\obj\Debug\SovcomTech.UsersAndAwards.DAL.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.DAL\obj\Debug\SovcomTech.UsersAndAwards.DAL.pdb

@@ -42,24 +42,6 @@ namespace SovcomTech.UsersAndAwards.DAL
                 command.ExecuteNonQuery();
             }
         }
-        public void AddAward(Award award)
-        {
-            using (var sqlConnection = new SqlConnection(_connectionString))
-            {
-                var command = sqlConnection.CreateCommand();
-                command.CommandText = "AddAward";
-                command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.AddWithValue(@"title", award.Title);
-                var id = new SqlParameter
-                {
-                    DbType = DbType.Int32,
-                    ParameterName = "ID_WORKER",
-                    Direction = ParameterDirection.Output
-                };
-                sqlConnection.Open();
-                command.ExecuteNonQuery();
-            }
-        }
 
         public void AddUserAward(int UserId, int AwardId)
         {
@@ -107,29 +89,7 @@ namespace SovcomTech.UsersAndAwards.DAL
             }
             return res;
         }
-        public IEnumerable<Award> DeleteAward(int id)
-        {
-            var res = new List<Award>();
-            using (var sqlConnection = new SqlConnection(_connectionString))
-            {
-                var command = sqlConnection.CreateCommand();
-                command.CommandType = CommandType.StoredProcedure;
-                command.CommandText = "RemoveAward";
-                command.Parameters.AddWithValue(@"awardId", id);
-                sqlConnection.Open();
-                var reader = command.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    res.Add(new Award
-                    {
-                        Id = (int)reader["Id"],
-                        Title = (string)reader["Title"]
-                    });
-                }
-            }
-            return res;
-        }
+       
         public void DeleteUserAward(int userId, int awardId)
         {
             using (var sqlConnection = new SqlConnection(_connectionString))
@@ -194,52 +154,8 @@ namespace SovcomTech.UsersAndAwards.DAL
             return res;
         }
 
-        public IEnumerable<Award> GetAwardsAtUser(int id)
-        {
-            var res = new List<Award>();
-            using (var sqlConnection = new SqlConnection(_connectionString))
-            {
-                var command = sqlConnection.CreateCommand();
-                command.CommandText = "GetAwardsAtUser";
-                command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.AddWithValue(@"UserId", id);
-                sqlConnection.Open();
-                var reader = command.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    res.Add(new Award
-                    {
-                        Id = (int)reader["Id"],
-                        Title = (string)reader["Title"]
-                    });
-                }
-            }
-            return res;
-        }
-        public IEnumerable<Award> GetAwards()
-        {
-            var res = new List<Award>();
-            using (var sqlConnection = new SqlConnection(_connectionString))
-            {
-                var command = sqlConnection.CreateCommand();
-                command.CommandText = "GetAward";
-                command.CommandType = CommandType.StoredProcedure;
-
-                sqlConnection.Open();
-                var reader = command.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    res.Add(new Award
-                    {
-                        Id = (int)reader["Id"],
-                        Title = (string)reader["Title"]
-                    });
-                }
-            }
-            return res;
-        }
+        
+        
         public User GetById(int id)
         {
             var res = new User();

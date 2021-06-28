@@ -18,13 +18,15 @@ namespace ConsolePL
             Regex reg = new Regex(@"^[a-zA-Zа-яА-Я]+$");
             
             var userLogic = Dependencies.userLogic;
+            var awardLogic = Dependencies.awardLogic;
+
             while (true)
             {
                 foreach (var item in userLogic.GetAll())
                 {
                     Console.WriteLine(item.ToString());
                 }
-                foreach (var item in userLogic.GetAwards())
+                foreach (var item in awardLogic.GetAwards())
                 {
                     Console.WriteLine(item.ToString());
                 }
@@ -84,7 +86,7 @@ namespace ConsolePL
                                 Console.WriteLine("Введите корректное название!");
                                 break;
                             }
-                            userLogic.AddAward(match.Value);
+                            awardLogic.AddAward(match.Value);
                             break;
                         case 3:
                             Console.WriteLine("Введите два значения, сначала Id пользователя, потом Id награды:");
@@ -120,7 +122,7 @@ namespace ConsolePL
                                 Console.WriteLine("Введите корректное Id");
                                 break;
                             }
-                            foreach (var item in userLogic.DeleteAward(tempId))
+                            foreach (var item in awardLogic.DeleteAward(tempId))
                             {
                                 Console.WriteLine(item.ToString());
                             }
@@ -144,7 +146,7 @@ namespace ConsolePL
                                 Console.WriteLine("Введите корректное Id");
                                 break;
                             }
-                            foreach (var item in userLogic.GetAwardsAtUser(tempId))
+                            foreach (var item in awardLogic.GetAwardsAtUser(tempId))
                             {
                                 Console.WriteLine(item.ToString());
                             }

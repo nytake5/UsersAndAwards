@@ -36,21 +36,10 @@ namespace SovcomTech.UsersAndAwards.BLL
             var user = new User(name, dateOfBirht, age);
             _user_DAO.AddUser(user);
         }
-        public void AddAward(string title)
-        {
-            var award = new Award(title);
-            _user_DAO.AddAward(award);
-        }
+
         public void AddUserAward(int UserId, int AwardId)
         {
-            try
-            {
-                _user_DAO.AddUserAward(UserId, AwardId);
-            }
-            catch (DependenciesEx ex)
-            {
-                throw ex;
-            }
+            _user_DAO.AddUserAward(UserId, AwardId);
         }
 
         public IEnumerable<User> GetAll()
@@ -58,22 +47,12 @@ namespace SovcomTech.UsersAndAwards.BLL
             return _user_DAO.GetAll();
         }
 
-        public IEnumerable<Award> GetAwardsAtUser(int id)
-        {
-            return _user_DAO.GetAwardsAtUser(id);
-        }
-
+        
         public IEnumerable<User> DeleteUser(int id)
         {
             return _user_DAO.DeleteUser(id);
         }
 
-        public IEnumerable<Award> DeleteAward(int id)
-        {
-            
-            return _user_DAO.DeleteAward(id);
-            
-        }
         public void DeleteUserAward(int userId, int awardId)
         {
             _user_DAO.DeleteUserAward(userId, awardId);
@@ -82,11 +61,6 @@ namespace SovcomTech.UsersAndAwards.BLL
         public User GetById(int id)
         {
             return _user_DAO.GetById(id);
-        }
-
-        public IEnumerable<Award> GetAwards()
-        {
-            return _user_DAO.GetAwards();
         }
 
         public IEnumerable<KeyValuePair<int, int>> GetUserAward()

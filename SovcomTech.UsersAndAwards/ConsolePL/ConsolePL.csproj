@@ -54,13 +54,21 @@
       <Project>{2b34ef73-9e2a-4e02-ab80-ceeded669a2a}</Project>
       <Name>SovcomTech.UsersAndAwards.Entity_User</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BLL\SovcomTech.UsersAndAwards.BLL.csproj">
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BLL\SovcomTech.UsersAndAwards.BLL_User.csproj">
       <Project>{3a5a92f1-99e0-4817-9257-fd28e438d774}</Project>
-      <Name>SovcomTech.UsersAndAwards.BLL</Name>
+      <Name>SovcomTech.UsersAndAwards.BLL_User</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BL_Interface\SovcomTech.UsersAndAwards.BL_Interface.csproj">
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BLL_Award\SovcomTech.UsersAndAwards.BLL_Award.csproj">
+      <Project>{73dd68eb-758e-43b7-9212-2e3b945d9118}</Project>
+      <Name>SovcomTech.UsersAndAwards.BLL_Award</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BL_Award_Interface\SovcomTech.UsersAndAwards.BL_Award_Interface.csproj">
+      <Project>{1949f0e0-58d5-4d04-9344-e001470a4acf}</Project>
+      <Name>SovcomTech.UsersAndAwards.BL_Award_Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BL_Interface\SovcomTech.UsersAndAwards.BL_User_Interface.csproj">
       <Project>{b262d625-4061-4bed-92a2-b22a93135f90}</Project>
-      <Name>SovcomTech.UsersAndAwards.BL_Interface</Name>
+      <Name>SovcomTech.UsersAndAwards.BL_User_Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\SovcomTech.UsersAndAwards.Common\SovcomTech.UsersAndAwards.Common.csproj">
       <Project>{82bb5c02-25fb-496d-957e-679ee81bb0c7}</Project>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3A5A92F1-99E0-4817-9257-FD28E438D774}</ProjectGuid>
+    <ProjectGuid>{73DD68EB-758E-43B7-9212-2E3B945D9118}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SovcomTech.UsersAndAwards.BLL</RootNamespace>
-    <AssemblyName>SovcomTech.UsersAndAwards.BLL</AssemblyName>
+    <RootNamespace>SovcomTech.UsersAndAwards.BLL_Award</RootNamespace>
+    <AssemblyName>SovcomTech.UsersAndAwards.BLL_Award</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -33,8 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,25 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UsersLogic.cs" />
+    <Compile Include="AwardLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entity_User\SovcomTech.UsersAndAwards.Entity_User.csproj">
-      <Project>{2b34ef73-9e2a-4e02-ab80-ceeded669a2a}</Project>
-      <Name>SovcomTech.UsersAndAwards.Entity_User</Name>
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BL_Award_Interface\SovcomTech.UsersAndAwards.BL_Award_Interface.csproj">
+      <Project>{1949f0e0-58d5-4d04-9344-e001470a4acf}</Project>
+      <Name>SovcomTech.UsersAndAwards.BL_Award_Interface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.BL_Interface\SovcomTech.UsersAndAwards.BL_Interface.csproj">
-      <Project>{b262d625-4061-4bed-92a2-b22a93135f90}</Project>
-      <Name>SovcomTech.UsersAndAwards.BL_Interface</Name>
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.DAL_Award\SovcomTech.UsersAndAwards.DAL_Award.csproj">
+      <Project>{d237a25c-56d7-4169-b582-6e3920b7b8b1}</Project>
+      <Name>SovcomTech.UsersAndAwards.DAL_Award</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.DAL\SovcomTech.UsersAndAwards.DAL.csproj">
-      <Project>{1890a578-20ef-42ad-98b6-4c49a1de5f8e}</Project>
-      <Name>SovcomTech.UsersAndAwards.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SovcomTech.UsersAndAwards.DAL_Interface\SovcomTech.UsersAndAwards.DAL_Interface.csproj">
-      <Project>{ac8bd8a2-e9d7-4ab4-8e06-288616df9413}</Project>
-      <Name>SovcomTech.UsersAndAwards.DAL_Interface</Name>
+    <ProjectReference Include="..\SovcomTech.UsersAndAwards.DAL_Award_Interface\SovcomTech.UsersAndAwards.DAL_Award_Interface.csproj">
+      <Project>{ffb66af5-a50d-47a0-ba7a-e57c0cf942d4}</Project>
+      <Name>SovcomTech.UsersAndAwards.DAL_Award_Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\SovcomTech.UsersAndAwards.Entity_Award\SovcomTech.UsersAndAwards.Entity_Award.csproj">
       <Project>{52d57dd0-2d2b-452f-968f-be207f5cb9ee}</Project>

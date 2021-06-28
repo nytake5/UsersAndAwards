@@ -1,0 +1,17 @@
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.BLL.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.BLL.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\Entity_User.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.BL_Interface.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.DAL.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Interface.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\Entity_User.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.BL_Interface.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.DAL.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Interface.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL_User.csprojAssemblyReference.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL_User.csproj.CoreCompileInputs.cache
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL_User.csproj.CopyComplete
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\SovcomTech.UsersAndAwards.BLL\obj\Debug\SovcomTech.UsersAndAwards.BLL.pdb

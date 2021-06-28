@@ -20,3 +20,11 @@ C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\obj\Debug\Consol
 C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\obj\Debug\ConsolePL.pdb
 C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.dll
 C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.Entity_Award.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.BLL_Award.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.BL_Award_Interface.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Award_Interface.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Award.dll
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.BLL_Award.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.BL_Award_Interface.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Award_Interface.pdb
+C:\Users\denzi\source\repos\SovcomTech.UsersAndAwards\ConsolePL\bin\Debug\SovcomTech.UsersAndAwards.DAL_Award.pdb
